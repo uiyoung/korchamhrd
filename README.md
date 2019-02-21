@@ -1,2 +1,2 @@
 # korchamhrd
-days is korchamhrd
+days in korchamhrd

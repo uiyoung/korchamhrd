@@ -3,13 +3,18 @@ set cindent
 set autoindent
 set smartindent
 set showmatch
-syntax on
-filetype on
+set hlsearch
 
 set background=dark
 set history=1000
 set ignorecase
 
-set ts=2
+set expandtab
+set tabstop=4
+set ts=4
+set shiftwidth=4
+set title
 
+syntax on
+syntax enable
 
