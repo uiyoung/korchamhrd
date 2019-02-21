@@ -8,17 +8,17 @@
 ### vim copy all
 
 ### word movement
-- `w`:move to the start of next word 
-- `b`:move to beginning of the word
-- `e`:move to end of the word
+- `w` : move to the start of next word 
+- `b` : move to beginning of the word
+- `e` : move to end of the word
 
 ### go to start/end of a line
 - `0` : to reach beginning of a line
 - `$` : reach end of a line 
 
 ### insert text repeatly
-- 30i- `esc`:------------------------------
-- 3igo `esc`:gogogo 
+- `30` `i` `-` `esc` : ------------------------------
+- `3` `i` `go` `esc` : gogogo 
 
 ### find character
 - `f{char}`
