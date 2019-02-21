@@ -35,7 +35,7 @@
 ### go to line
 - `gg`: to the beginning of the file
 - `G` : to the end of the file 
-- `3``G`: to the 3rd line
+- `3` `G`: to the 3rd line
 
 ### 들여쓰기
 - `>>`
