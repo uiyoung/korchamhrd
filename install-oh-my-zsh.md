@@ -22,12 +22,16 @@ $ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/insta
 ```
 [oh-my-zsh](https://ohmyz.sh)
 
+---
+
 ### theme
+
+1. [agnoster](https://gist.github.com/agnoster/3712874) theme
 ```bash
 # vi ./zshrc
+
+ZSH_THEME="agnoster"
 ```
-1. ZSH_THEME="agnoster" 로 변경
-[agnoster](https://gist.github.com/agnoster/3712874)
 
 2. install Powerline Font
 ```bash
@@ -38,6 +42,7 @@ $ cd fonts
 $ ./install.sh
 # clean
 rm -rf fonts
+```
 
 3. font 변경
 edit-preferences-Text-Custom font에서 powerline font 선택
@@ -46,5 +51,5 @@ edit-preferences-Text-Custom font에서 powerline font 선택
 4. shell에서 pc이름 숨기기
 ```bash
 vi .zshrc
-```
 `prompt_context(){}` 추가
+```
