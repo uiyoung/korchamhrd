@@ -44,7 +44,7 @@ $ ./install.sh
 rm -rf fonts
 ```
 
-3. font 변경
+3. font 변경  
 edit-preferences-Text-Custom font에서 powerline font 선택
 (Ubuntu Mono derivative Powerline Regular)
 
