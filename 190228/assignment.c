@@ -320,21 +320,21 @@ int main()
 
 	/* basic info */
 	printf("_________________________________________________________________\n");
-	printf("%13s\t|%10s\t\t%10s\n", NAME, nameA, nameB);
-	printf("%13s\t|%10s\t\t%10s\n", NATIONALITY, nationalityA, nationalityB);
-	printf("%13s\t|%10s\t\t%10s\n", TEAM, teamA, teamB);
-	printf("%13s\t|%11.1lfcm\t\t%11.1lfcm\n", HEIGHT, heightA, heightB);
-	printf("%13s\t|%11.1lfkg\t\t%11.1lfkg\n", WEIGHT, weightA, weightB);
-	printf("%13s\t|%10s\t\t%10s\n", PREFFERRED_FOOT, prefferredFootA, prefferredFootB);
-	printf("-----------------------------------------------------------------\n");
+	printf("%13s\t|%15s\t\t%15s\n", NAME, nameA, nameB);
+	printf("%13s\t|%15s\t\t%15s\n", NATIONALITY, nationalityA, nationalityB);
+	printf("%14s\t|%15s\t\t%15s\n", TEAM, teamA, teamB);
+	printf("%12s\t|%13.1lfcm\t\t%13.1lfcm\n", HEIGHT, heightA, heightB);
+	printf("%14s\t|%13.1lfkg\t\t%13.1lfkg\n", WEIGHT, weightA, weightB);
+	printf("%12s\t|%15s\t\t%15s\n", PREFFERRED_FOOT, prefferredFootA, prefferredFootB);
+	printf("─────────────────────────────────────────────────────────────────\n");
 	/* result */
-	printf("___________________분석 결과 (0:false, 1:true)___________________\n/n");
+	printf("___________________분석 결과 (0:false, 1:true)___________________\n\n");
 	printf("%s 선수가 %s 선수보다 %s이(가) 더 높다 : %d\n", nameA, nameB, WAGE, (wageA > wageB));
 	printf("%s 선수가 %s 선수보다 %s이(가) 더 높다 : %d\n", nameA, nameB, VALUE, (valueA > valueB));
 	printf("%s 선수가 %s 선수보다 %s이(가) 더 높다 : %d\n", nameA, nameB, TECHNICAL, (sumTechnicalA > sumTechnicalB));
 	printf("%s 선수가 %s 선수보다 %s이(가) 더 높다 : %d\n", nameA, nameB, MENTAL, (sumMentalA > sumMentalB));
-	printf("%s 선수가 %s 선수보다 %s이(가) 더 높다 : %d\n\n", nameA, nameB, PHYSICAL, (sumPhysicalA > sumPhysicalB));
-	printf("----------------------------------------------------------------\n");
+	printf("%s 선수가 %s 선수보다 %s이(가) 더 높다 : %d\n", nameA, nameB, PHYSICAL, (sumPhysicalA > sumPhysicalB));
+	printf("─────────────────────────────────────────────────────────────────\n");
 
 	return 0;
 }
